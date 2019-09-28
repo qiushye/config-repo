@@ -31,3 +31,12 @@ mysql:
   user: root
   pwd: root_test
   db: user
+
+trace:
+  host: 106.15.233.99
+  port: 9411
+  url: /api/v2/spans
+
+
+
+
