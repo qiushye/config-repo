@@ -9,6 +9,11 @@ service:
   read_proxy2layer_goroutine_num: 100
   cookie_secretkey: zxfyazzaa
   refer_whitelist:
+  AppWriteToHandleGoroutineNum: 10
+  AppReadFromHandleGoroutineNum: 10
+  CoreReadRedisGoroutineNum: 10
+  CoreWriteRedisGoroutineNum: 10
+  CoreHandleGoroutineNum int: 10
 
 redis:
   host: localhost
