@@ -38,8 +38,9 @@ trace:
   port: 9411
   url: /api/v2/spans
 
-permitAll:
-  - /string-service
+auth:
+  permitAll:
+    - /string-service
 
 
 
